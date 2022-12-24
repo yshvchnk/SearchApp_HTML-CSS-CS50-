@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.links {
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+}
+
+.links > a {
+    margin: 0 40px 0 0;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.links > a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    text-align: center;
+    margin-top: 40px;
+    height: 120px;
+    position: relative;
+}
+
+.image > img {
+    height: 100%;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-buttons {
+    margin-top: 30px;
+}
+
+.form-buttons > input {
+    color: #3c4043;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 50px;
+    cursor: pointer;
+    line-height: 27px;
+    margin: 11px 4px;
+}
+
+.form-buttons>input:hover {
+    border: 1px solid rgba(60, 64, 67, .2);
+    box-shadow: 2px 2px 2px rgba(60, 64, 67, .2);
+}
+
+[type="text"] {
+    width: 40%;
+    height: 60px;
+    padding: 5px 40px;
+    border-radius: 30px;
+    border: 2px solid rgba(60, 64, 67, .2);
+}
+
+[type="text"]:hover {
+    box-shadow: 2px 2px 2px rgba(60, 64, 67, .2), -2px -2px 2px rgba(60, 64, 67, .2);
+}
+
+[type="text"]:focus {
+    outline: none;
+    border: 2px solid rgba(60, 64, 67, .2);
+    box-shadow: 2px 2px 2px rgba(60, 64, 67, .2), -2px -2px 2px rgba(60, 64, 67, .2);
+}
+
+.text-img {
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    color: blue;
+}
+
+.image-advanced {
+    height: 50px;
+}
+
+.image-advanced > img {
+    height: 100%;
+}
+
+.advanced-search-text {
+    margin: 20px 0 35px 50px;
+    font-size: 28px;
+    color: #d93025;
+}
+
+.input-header {
+    margin: 50px 0 25px 50px;
+}
+
+.input-advanced {
+    display: grid;
+    grid-template-columns: 300px 800px 400px;
+    grid-template-rows: 60px 60px 60px 60px;
+    justify-items: flex-start;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.input-advanced > label {
+    margin-left: 50px;
+    align-self: center;
+    font-size: 18px;
+}
+
+.input-advanced > p {
+    font-size: 14px;
+    align-self: center;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.input-advanced > [type="text"] {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    border: 2px solid rgba(60, 64, 67, .2);
+    align-self: center;
+}
+
+.form-buttons-advanced {
+    position: relative;
+    height: 100px;
+}
+
+.form-buttons-advanced > input {
+    background: #4d90fe;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 48%;
+}
